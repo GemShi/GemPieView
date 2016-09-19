@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFFB98F21D8F8701008B7F86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFB98F11D8F8701008B7F86 /* main.m */; };
+		DFFB98F51D8F8701008B7F86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFB98F41D8F8701008B7F86 /* AppDelegate.m */; };
+		DFFB98F81D8F8701008B7F86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFB98F71D8F8701008B7F86 /* ViewController.m */; };
+		DFFB98FB1D8F8701008B7F86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFFB98F91D8F8701008B7F86 /* Main.storyboard */; };
+		DFFB98FD1D8F8701008B7F86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFFB98FC1D8F8701008B7F86 /* Assets.xcassets */; };
+		DFFB99001D8F8701008B7F86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFFB98FE1D8F8701008B7F86 /* LaunchScreen.storyboard */; };
+		DFFB990B1D8F8701008B7F86 /* GemPieViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFB990A1D8F8701008B7F86 /* GemPieViewTests.m */; };
+		DFFB99161D8F8701008B7F86 /* GemPieViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFB99151D8F8701008B7F86 /* GemPieViewUITests.m */; };
+		DFFB99251D8F8767008B7F86 /* GemPieView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFB99241D8F8767008B7F86 /* GemPieView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFFB99071D8F8701008B7F86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFFB98E51D8F8701008B7F86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFFB98EC1D8F8701008B7F86;
+			remoteInfo = GemPieView;
+		};
+		DFFB99121D8F8701008B7F86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFFB98E51D8F8701008B7F86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFFB98EC1D8F8701008B7F86;
+			remoteInfo = GemPieView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFFB98ED1D8F8701008B7F86 /* GemPieView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GemPieView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFFB98F11D8F8701008B7F86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFFB98F31D8F8701008B7F86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFFB98F41D8F8701008B7F86 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DFFB98F61D8F8701008B7F86 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DFFB98F71D8F8701008B7F86 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DFFB98FA1D8F8701008B7F86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFFB98FC1D8F8701008B7F86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFFB98FF1D8F8701008B7F86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFFB99011D8F8701008B7F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFFB99061D8F8701008B7F86 /* GemPieViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GemPieViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFFB990A1D8F8701008B7F86 /* GemPieViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GemPieViewTests.m; sourceTree = "<group>"; };
+		DFFB990C1D8F8701008B7F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFFB99111D8F8701008B7F86 /* GemPieViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GemPieViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFFB99151D8F8701008B7F86 /* GemPieViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GemPieViewUITests.m; sourceTree = "<group>"; };
+		DFFB99171D8F8701008B7F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFFB99231D8F8767008B7F86 /* GemPieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GemPieView.h; sourceTree = "<group>"; };
+		DFFB99241D8F8767008B7F86 /* GemPieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GemPieView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFFB98EA1D8F8701008B7F86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFFB99031D8F8701008B7F86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFFB990E1D8F8701008B7F86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFFB98E41D8F8701008B7F86 = {
+			isa = PBXGroup;
+			children = (
+				DFFB98EF1D8F8701008B7F86 /* GemPieView */,
+				DFFB99091D8F8701008B7F86 /* GemPieViewTests */,
+				DFFB99141D8F8701008B7F86 /* GemPieViewUITests */,
+				DFFB98EE1D8F8701008B7F86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFFB98EE1D8F8701008B7F86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFFB98ED1D8F8701008B7F86 /* GemPieView.app */,
+				DFFB99061D8F8701008B7F86 /* GemPieViewTests.xctest */,
+				DFFB99111D8F8701008B7F86 /* GemPieViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFFB98EF1D8F8701008B7F86 /* GemPieView */ = {
+			isa = PBXGroup;
+			children = (
+				DFFB98F31D8F8701008B7F86 /* AppDelegate.h */,
+				DFFB98F41D8F8701008B7F86 /* AppDelegate.m */,
+				DFFB98F61D8F8701008B7F86 /* ViewController.h */,
+				DFFB98F71D8F8701008B7F86 /* ViewController.m */,
+				DFFB99231D8F8767008B7F86 /* GemPieView.h */,
+				DFFB99241D8F8767008B7F86 /* GemPieView.m */,
+				DFFB98F91D8F8701008B7F86 /* Main.storyboard */,
+				DFFB98FC1D8F8701008B7F86 /* Assets.xcassets */,
+				DFFB98FE1D8F8701008B7F86 /* LaunchScreen.storyboard */,
+				DFFB99011D8F8701008B7F86 /* Info.plist */,
+				DFFB98F01D8F8701008B7F86 /* Supporting Files */,
+			);
+			path = GemPieView;
+			sourceTree = "<group>";
+		};
+		DFFB98F01D8F8701008B7F86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFFB98F11D8F8701008B7F86 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFFB99091D8F8701008B7F86 /* GemPieViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFFB990A1D8F8701008B7F86 /* GemPieViewTests.m */,
+				DFFB990C1D8F8701008B7F86 /* Info.plist */,
+			);
+			path = GemPieViewTests;
+			sourceTree = "<group>";
+		};
+		DFFB99141D8F8701008B7F86 /* GemPieViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFFB99151D8F8701008B7F86 /* GemPieViewUITests.m */,
+				DFFB99171D8F8701008B7F86 /* Info.plist */,
+			);
+			path = GemPieViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFFB98EC1D8F8701008B7F86 /* GemPieView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFFB991A1D8F8701008B7F86 /* Build configuration list for PBXNativeTarget "GemPieView" */;
+			buildPhases = (
+				DFFB98E91D8F8701008B7F86 /* Sources */,
+				DFFB98EA1D8F8701008B7F86 /* Frameworks */,
+				DFFB98EB1D8F8701008B7F86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GemPieView;
+			productName = GemPieView;
+			productReference = DFFB98ED1D8F8701008B7F86 /* GemPieView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFFB99051D8F8701008B7F86 /* GemPieViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFFB991D1D8F8701008B7F86 /* Build configuration list for PBXNativeTarget "GemPieViewTests" */;
+			buildPhases = (
+				DFFB99021D8F8701008B7F86 /* Sources */,
+				DFFB99031D8F8701008B7F86 /* Frameworks */,
+				DFFB99041D8F8701008B7F86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFFB99081D8F8701008B7F86 /* PBXTargetDependency */,
+			);
+			name = GemPieViewTests;
+			productName = GemPieViewTests;
+			productReference = DFFB99061D8F8701008B7F86 /* GemPieViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFFB99101D8F8701008B7F86 /* GemPieViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFFB99201D8F8701008B7F86 /* Build configuration list for PBXNativeTarget "GemPieViewUITests" */;
+			buildPhases = (
+				DFFB990D1D8F8701008B7F86 /* Sources */,
+				DFFB990E1D8F8701008B7F86 /* Frameworks */,
+				DFFB990F1D8F8701008B7F86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFFB99131D8F8701008B7F86 /* PBXTargetDependency */,
+			);
+			name = GemPieViewUITests;
+			productName = GemPieViewUITests;
+			productReference = DFFB99111D8F8701008B7F86 /* GemPieViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFFB98E51D8F8701008B7F86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = GemShi;
+				TargetAttributes = {
+					DFFB98EC1D8F8701008B7F86 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					DFFB99051D8F8701008B7F86 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DFFB98EC1D8F8701008B7F86;
+					};
+					DFFB99101D8F8701008B7F86 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DFFB98EC1D8F8701008B7F86;
+					};
+				};
+			};
+			buildConfigurationList = DFFB98E81D8F8701008B7F86 /* Build configuration list for PBXProject "GemPieView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFFB98E41D8F8701008B7F86;
+			productRefGroup = DFFB98EE1D8F8701008B7F86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFFB98EC1D8F8701008B7F86 /* GemPieView */,
+				DFFB99051D8F8701008B7F86 /* GemPieViewTests */,
+				DFFB99101D8F8701008B7F86 /* GemPieViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFFB98EB1D8F8701008B7F86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFFB99001D8F8701008B7F86 /* LaunchScreen.storyboard in Resources */,
+				DFFB98FD1D8F8701008B7F86 /* Assets.xcassets in Resources */,
+				DFFB98FB1D8F8701008B7F86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFFB99041D8F8701008B7F86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFFB990F1D8F8701008B7F86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFFB98E91D8F8701008B7F86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFFB98F81D8F8701008B7F86 /* ViewController.m in Sources */,
+				DFFB99251D8F8767008B7F86 /* GemPieView.m in Sources */,
+				DFFB98F51D8F8701008B7F86 /* AppDelegate.m in Sources */,
+				DFFB98F21D8F8701008B7F86 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFFB99021D8F8701008B7F86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFFB990B1D8F8701008B7F86 /* GemPieViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFFB990D1D8F8701008B7F86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFFB99161D8F8701008B7F86 /* GemPieViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFFB99081D8F8701008B7F86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFFB98EC1D8F8701008B7F86 /* GemPieView */;
+			targetProxy = DFFB99071D8F8701008B7F86 /* PBXContainerItemProxy */;
+		};
+		DFFB99131D8F8701008B7F86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFFB98EC1D8F8701008B7F86 /* GemPieView */;
+			targetProxy = DFFB99121D8F8701008B7F86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFFB98F91D8F8701008B7F86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFFB98FA1D8F8701008B7F86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFFB98FE1D8F8701008B7F86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFFB98FF1D8F8701008B7F86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFFB99181D8F8701008B7F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFFB99191D8F8701008B7F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFFB991B1D8F8701008B7F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GemPieView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.GemPieView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DFFB991C1D8F8701008B7F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GemPieView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.GemPieView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DFFB991E1D8F8701008B7F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GemPieViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.GemPieViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GemPieView.app/GemPieView";
+			};
+			name = Debug;
+		};
+		DFFB991F1D8F8701008B7F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GemPieViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.GemPieViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GemPieView.app/GemPieView";
+			};
+			name = Release;
+		};
+		DFFB99211D8F8701008B7F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GemPieViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.GemPieViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GemPieView;
+			};
+			name = Debug;
+		};
+		DFFB99221D8F8701008B7F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GemPieViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.GemPieViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GemPieView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFFB98E81D8F8701008B7F86 /* Build configuration list for PBXProject "GemPieView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFFB99181D8F8701008B7F86 /* Debug */,
+				DFFB99191D8F8701008B7F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFFB991A1D8F8701008B7F86 /* Build configuration list for PBXNativeTarget "GemPieView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFFB991B1D8F8701008B7F86 /* Debug */,
+				DFFB991C1D8F8701008B7F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DFFB991D1D8F8701008B7F86 /* Build configuration list for PBXNativeTarget "GemPieViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFFB991E1D8F8701008B7F86 /* Debug */,
+				DFFB991F1D8F8701008B7F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DFFB99201D8F8701008B7F86 /* Build configuration list for PBXNativeTarget "GemPieViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFFB99211D8F8701008B7F86 /* Debug */,
+				DFFB99221D8F8701008B7F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFFB98E51D8F8701008B7F86 /* Project object */;
+}
